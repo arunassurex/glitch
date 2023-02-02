@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML5 Local Storage Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="rating" content="General">
+<meta name="expires" content="never">
+<meta name="language" content="English, EN">
+<meta name="description" content="Shopping cart project with HTML5 and JavaScript">
+<meta name="keywords" content="HTML5,CSS,JavaScript, html5 session storage, html5 local storage">
+<meta name="author" content="dcwebmakers.com">
+<script src="Storage.js"></script>
+<link rel="stylesheet" href="StorageStyle.css">
+    
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750967/Ecommerce/ef192a21ec96.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">ASUS Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Buy now </a>
+                    <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571751108/Ecommerce/laptop-dell-xps-15-computer-monitors-laptops.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">Dell Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Buy now </a>
+                    <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750722/Ecommerce/acer-v-17-nitro-realsense.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">Acer Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Buy now </a>
+                    <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750391/Ecommerce/hp-17-x061nr-white-background.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">HP Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Buy now </a>
+                    <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750338/Ecommerce/Laptop-3.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">Dell Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Add to Cart </a>
+                    <div class="price-wrap"> <span class="price h5">$399</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750967/Ecommerce/ef192a21ec96.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">Dell Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Add to Cart </a>
+                    <div class="price-wrap"> <span class="price h5">$599</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750722/Ecommerce/acer-v-17-nitro-realsense.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">Acer Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Add to Cart </a>
+                    <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750391/Ecommerce/hp-17-x061nr-white-background.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">HP Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Add to Cart </a>
+                    <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750338/Ecommerce/Laptop-3.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">Dell Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Add to Cart </a>
+                    <div class="price-wrap"> <span class="price h5">$399</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750967/Ecommerce/ef192a21ec96.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">Dell Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Buy now </a>
+                    <div class="price-wrap"> <span class="price h5">$599</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750722/Ecommerce/acer-v-17-nitro-realsense.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">Acer Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Add to Cart </a>
+                    <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750391/Ecommerce/hp-17-x061nr-white-background.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">HP Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Add to Cart </a>
+                    <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750338/Ecommerce/Laptop-3.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">Dell Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Add to Cart </a>
+                    <div class="price-wrap"> <span class="price h5">$399</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750967/Ecommerce/ef192a21ec96.jpg"></a>
+                <figcaption class="info-wrap">
+                    <div class="row">
+                        <div class="col-md-8"> <a href="#" class="title" data-abc="true">Dell Laptop - 5GB RAM</a> </div>
+                        <div class="col-md-4">
+                            <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                        </div>
+                    </div>
+                </figcaption>
+                <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Add to Cart </a>
+                    <div class="price-wrap"> <span class="price h5">$599</span> <br> <small class="text-success">Free shipping</small> </div>
+                </div>
+            </figure>
+        </div>
+    </div>
+</div>
+  </body>
+</html>
